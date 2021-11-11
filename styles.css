@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/*Navigator*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: century;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: grey;
+    box-shadow: 0 0 10px grey;
+}
+/*home*/
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: #139781;
+    height: 350px;
+    color: white;
+}
+#pic {
+    display: flex;
+
+}
+#pic img{
+    margin: 80px 180px;
+    width: 220;
+    height: 210;
+    background: url('person 1.png') center;
+    border: 2px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    border-radius: 50%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.heading {
+    font-family: georgia;
+    font-size: 2.3em;
+    justify-content: right;
+    text-align: center;
+    margin: 40px 0px;
+}
+#about {
+    padding-top: 1px;
+    padding-bottom: 100px;
+    text-align: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 25%;
+    background-color: #4398ad;
+}
+#about p {
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    font-family: helvetica;
+    font-size: 20px;
+}
+#education {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: skyblue;
+}
+#education li {
+    margin-bottom: 20px;
+    font-family: helvetica;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25%;
+    font-size: 20px;
+}
+#experience li{
+    margin: 10px 18% 20px 10%;
+    font-family: helvetica;
+    display: inline-block;
+    font-size: 18px;
+}
+#experience li strong{
+    color: #006666;
+}
